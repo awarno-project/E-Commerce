@@ -1,0 +1,214 @@
+.main{
+    width: calc(100% - 335px);
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Dashboard menu css */
+
+.main-head{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(241, 241, 241, 0.911);
+}
+.main-head a{
+    text-decoration: none;
+    color: rgb(110, 109, 109);
+    font-weight: 500;
+}
+
+
+.main-body{
+    border: 1px solid rgba(160, 160, 160, 0.856);
+    border-top: 0;
+    width:90%;
+    min-height: 150px;
+}
+.main-body ul li{
+    list-style: none;
+    line-height: 30px;
+    padding: 8px 0;
+}
+
+
+/* My Wishlist css */
+
+.wish-table td{
+    vertical-align: middle;
+}
+.order-img{
+    width: 200px;
+    height: 100px;
+}
+.my-order-img{
+    width: 100px;
+    height: 95px;
+    object-fit: contain;
+}
+.product{
+    font-size: 14px;
+    max-width: 35%;
+}
+.price{
+    max-width: 200px;
+}
+.status{
+    width: 35%;
+}
+.availability{
+    width: 105px;
+}
+.share-box{
+    width: 155px;
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(90px);
+    display: none;
+}
+.share-box.show{
+    display: block;
+}
+
+
+
+/* My Profile css */
+
+.form-field{
+    width: 200px;
+}
+
+/* My Address css */
+
+.add-address.show{
+    display: block;
+}
+.add-address{
+    display: none;
+}
+.new-address.show{
+    display: block;
+}
+.new-address{
+    display: none;
+}
+
+
+/* My Order css */
+
+.main-order-container{
+    width: calc(100% - 340px);
+}
+.my-order-head{
+    height: 50px;
+}
+.my-order-body:hover{
+    box-shadow: 3px 3px 17px -2px rgba(75, 74, 74, 0.75);
+    -webkit-box-shadow: 3px 3px 17px -2px rgba(75,74,74,0.75);
+    -moz-box-shadow: 3px 3px 17px -2px rgba(75,74,74,0.75);;
+}
+.product-details p{
+    line-height: 20px;
+    font-size: small;
+    color: rgba(110, 110, 110, 0.719);
+    margin-bottom:0 ;
+    vertical-align:middle;
+}
+
+.align-middle-start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* My Review css */
+
+.star_rating{
+    user-select: none;
+}
+.star{
+    font-size: 40px;
+    color: #ff9800;
+    background-color: unset;
+    border: none;
+}
+.star:hover{
+    cursor: pointer;
+}
+
+
+.edit-review-img{
+    width: 70px;
+    height: 65px;
+    object-fit: contain;
+}
+.rating-box{
+    font-size: 12px;
+    font-weight: 500;
+}
+.rating-box i{
+    font-size: 10px;
+    font-weight: 600;
+}
+.edit-review-img-div{
+    width: 100px;
+}
+.review-textarea{
+    resize: none;
+    width: 100%;
+    height: 148px;
+    border: none;
+}
+.review-description{
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(187, 186, 186, 0.623);
+}
+.review-description p{
+    font-size: 12px;
+}
+
+.review-description-2{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid rgba(187, 186, 186, 0.623);
+}
+.review-description-2 .review-textarea{
+    resize: none;
+    width: 100%;
+    height: 23px;
+    border: none;
+}
+
+.review-description-2 p{
+    font-size: 12px;
+}
+
+.review-btn{
+    background-color: #fb641b;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .main{
+        width: 100%;
+        
+    }
+    .main-order-container{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:700px) {
+
+    .form-field{
+        width: 100%;
+        
+    }
+    
+}
