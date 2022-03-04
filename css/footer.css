@@ -1,0 +1,58 @@
+.contact .social i{
+    color:rgba(129, 127, 127, 0.877);
+}
+.contact .social i:hover{
+    color:brown;
+}
+.dash p a{
+    text-decoration: none;
+    color:rgb(65, 64, 64);
+}
+.dash p a:hover{
+    color:brown;
+}
+
+.copyright{
+    height: 75px;
+    margin-top: 75px;
+    color:gray;
+}
+.edit-address-popup{
+    width: 55px;
+    height: 60px;
+    padding: 5px;
+    position: absolute;
+    right: -2px;
+    top: 5px;
+    display: none;
+    z-index: 3;
+
+}
+
+.hover-edit {
+    position: relative;
+}
+
+.hover-edit i:hover + .edit-address-popup, .edit-address-popup:hover{
+    display: block;
+}
+.edit-address-popup a{
+    text-decoration: none;
+
+}
+
+
+.password-change-popup{
+    width: 300px;
+    height: fit-content;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+}
+.password-change-popup.show{
+    display: block;
+}

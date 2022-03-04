@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.header .icon a{
+    text-decoration: none;
+    color: black;
+}
+.header .icon a:hover{
+    color: brown;
+}
+.header .icon a i{
+    color:brown;
+}
+
+/* sidebar css */
+
+.sidebar{
+    width: 325px;
+    height: 400px;
+    display: inline-block;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: 0 0 0 100px;
+    padding: 0;
+    width: 190px;
+    overflow: hidden;
+}
+.sidebar ul li{
+    line-height: 50px;
+    width: fit-content;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+}
+.sidebar ul li a i{
+    text-decoration: none;
+    color: rgba(90, 90, 90, 0.897);
+}
+.sidebar ul li a:hover{
+    color: brown;
+}
+
+
+
+.sidebar ul .fa-circle{
+    margin-left: -27px;
+    color: rgb(168, 50, 50);
+    transform: scale(0);
+}
+.sidebar ul .dash.dashboard .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .dash.dashboard a{
+    color: brown;
+}
+
+.sidebar ul .dash.Dashboard .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .dash.Dashboard a{
+    color: brown;
+}
+.sidebar ul .ord.Order .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .ord.Order a{
+    color: brown;
+}
+.sidebar ul .wish.Wishlist .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .wish.Wishlist a{
+    color: brown;
+}
+.sidebar ul .rev.Review .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .rev.Review a{
+    color: brown;
+}
+.sidebar ul .addr.Address .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .addr.Address a{
+    color: brown;
+}
+.sidebar ul .pro.Profile .fa-circle{
+    transform: scale(1);   
+}
+.sidebar ul .pro.Profile a{
+    color: brown;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    
+    
+    .header{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
